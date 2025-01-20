@@ -121,7 +121,7 @@
      ```
 
 3. **Download the Stable Diffusion Model**  
-   - Get the model file (e.g., [v1.5 Model](https://huggingface.co)) and place it in:
+   - Get the model file (e.g., [v1.5 Model](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/v1-5-pruned.safetensors)) and place it in:
 
      ```text
      models/stable-diffusion
