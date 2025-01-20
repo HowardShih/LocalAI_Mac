@@ -5,6 +5,8 @@
 
 ## **Chapter 1: Setting Up Ollama**   
 
+Install the Ollama tool to run AI models like Llama locally. This foundational step ensures the required software environment is set up.
+
 1. **Download and Install Ollama**  
    - Visit the official website to download: [ollama.com](https://ollama.com/)
 
@@ -26,21 +28,24 @@
 
 ## **Chapter 2: Installing Homebrew**
 
-1. **Install Homebrew**  
+Install Homebrew, a package manager for macOS that simplifies the installation of required software.
+
+1. **Install Homebrew**
+
    Run the following command in Terminal:
 
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. **Add Homebrew to Your System Path**  
+3. **Add Homebrew to Your System Path**  
    Append Homebrew's path to your shell profile (e.g., `.zprofile` for Zsh):
 
    ```bash
    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
    ```
 
-3. **Restart Terminal and Verify Installation**  
+4. **Restart Terminal and Verify Installation**  
    - Close and reopen Terminal.  
    - Run this command to verify Homebrew installation:
 
@@ -51,6 +56,8 @@
 ---
 
 ## **Chapter 3: Installing Conda**
+
+Obtain the Conda installer suitable for your system to manage Python environments and dependencies.
 
 1. **Download Miniforge3**  
    - Get the installer for macOS (ARM64):  
@@ -82,7 +89,9 @@
 
 ## **Chapter 4: Installing and Running Open WebUI**
 
-1. **Install Open WebUI**  
+Launch the WebUI to provide a local interaction interface and add required AI models to extend WebuUI functionality.
+
+1. **Install Open WebUI**     
    Use `pip` to install Open WebUI:
 
    ```bash
@@ -102,6 +111,8 @@
 ---
 
 ## **Chapter 5: Setting Up Stable Diffusion**
+
+Download model files to serve as the foundation for image generation.
 
 1. **Create a Conda Environment**
 
@@ -139,6 +150,8 @@
 ---
 
 ## **Chapter 6: Linking Stable Diffusion to Open WebUI**
+
+Enable API mode to control Stable Diffusion via WebUI.
 
 1. **Configure Open WebUI**  
    - Go to **Settings > Admin Settings > Images**.  
