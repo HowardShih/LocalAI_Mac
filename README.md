@@ -205,4 +205,4 @@ To simplify the startup and configuration process for Open WebUI and Stable Diff
 
 ---
 
-This guide is designed to help anyone set up a fully functional local AI environment on macOS. Contributions and improvements are welcome—feel free to open a pull request! 😊
+This guide is designed to help anyone set up a fully functional local AI environment on macOS. Contributions and improvements are free to open a pull request! 😻😻
