@@ -155,7 +155,14 @@ Download model files to serve as the foundation for image generation.
 
 Enable API mode to control Stable Diffusion via WebUI.
 
-1. **Configure Open WebUI**  
+**Start Stable Diffusion with API Mode**
+
+1. **Start Stable Diffusion with API Mode**
+   ```bash
+   ./webui.sh --listen --api
+   ```
+   
+2. **Configure Open WebUI**  
    - Go to **Settings > Admin Settings > Images**.  
    - Set the **Image Generation Engine** to **AUTOMATIC1111**.  
    - Input the following URL:
@@ -163,12 +170,6 @@ Enable API mode to control Stable Diffusion via WebUI.
      ```text
      http://127.0.0.1:7860
      ```
-
-2. **Start Stable Diffusion with API Mode**
-
-   ```bash
-   sh webui.sh --listen --api
-   ```
 
 3. **Test the Connection**  
    - In Open WebUI, click **Refresh** under Image Settings and save the configuration.
