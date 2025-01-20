@@ -115,36 +115,38 @@ Launch the WebUI to provide a local interaction interface and add required AI mo
 Download model files to serve as the foundation for image generation.
 
 1. **Create a Conda Environment**
+   - Open a new terminal
 
    ```bash
+   eval "$($(which conda) shell.zsh hook)"
    conda create -n stable python=3.10.6
-   conda activate stable
+   conda activate stable  
    ```
 
-2. **Clone the Stable Diffusion Repository**  
+3. **Clone the Stable Diffusion Repository**  
    - Create a working directory and clone the repository:
 
      ```bash
-     mkdir stable-diffusion
-     cd stable-diffusion
+     mkdir stablediff
+     cd stablediff
      git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
      cd stable-diffusion-webui
      ```
 
-3. **Download the Stable Diffusion Model**  
+4. **Download the Stable Diffusion Model**  
    - Get the model file (e.g., [v1.5 Model](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/v1-5-pruned.safetensors)) and place it in:
 
      ```text
-     models/stable-diffusion
+     models/Stable-diffusion  
      ```
 
-4. **Run the WebUI Script**
+5. **Run the WebUI Script**
 
    ```bash
-   sh webui.sh
+   ./webui.sh
    ```
 
-5. **Generate Images**  
+6. **Generate Images**  
    - Open the interface in a browser, select the model file, and enter prompts to generate images.
 
 ---
